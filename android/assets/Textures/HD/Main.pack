@@ -1,0 +1,26 @@
+
+Main.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GameLogo
+  rotate: false
+  xy: 2, 39
+  size: 970, 430
+  orig: 1024, 512
+  offset: 30, 54
+  index: -1
+Empty
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HalfEmpty
+  rotate: false
+  xy: 977, 437
+  size: 15, 32
+  orig: 32, 32
+  offset: 17, 0
+  index: -1

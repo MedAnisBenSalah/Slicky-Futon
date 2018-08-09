@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Slicky Futon</string>
+    <string name="app_id" translatable="false">750542373020</string>
+    <string name="leaderboard_slicky_futon" translatable="false">CgkInIG__usVEAIQAQ</string>
+
+    <string name="appodeal_apikey" translatable="false">ac4e8d2d50781653aa36cd3b3c597c33ece2066647e3a8c3</string>
+
+</resources>

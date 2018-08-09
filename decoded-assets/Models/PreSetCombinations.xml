@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Movements>
+
+	<StaticCombinations>
+	
+		<!-- Multiple chainsaw combination -->
+		<Combination1 speed="0" endDistance="0">
+			<Object1 model="Chainsaw" position="Middle" distance="0.5" passable="true" />
+			<Object2 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object3 model="Coin" position="Middle" distance="0.75" passable="false" />
+			<Object4 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object5 model="Chainsaw" position="Up" distance="0" passable="false" />
+			<Object6 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object7 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object8 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object9 model="Chainsaw" position="Up" distance="0" passable="false" />
+			<Object10 model="Coin" position="Middle" distance="0.75" passable="false" />
+			<Object11 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object12 model="Chainsaw" position="Up" distance="0" passable="false" />
+			<Object13 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object14 model="Chainsaw" position="Down" distance="0" passable="false" />		
+			<Object15 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object16 model="Chainsaw" position="Up" distance="0" passable="false" />
+			<Object17 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object18 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object19 model="Coin" position="Middle" distance="0.75" passable="false" />
+			<Object20 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object21 model="Chainsaw" position="Down" distance="0" passable="false" />
+		</Combination1>
+		
+		<!-- Mixed multiple chainsaw combinations -->
+		<Combination2 speed="0" endDistance="10">
+			<Object1 model="Chainsaw" position="Up" distance="0" passable="true" />
+			<Object2 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object3 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object4 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object5 model="Coin" position="Down" distance="0.5" passable="false" />
+			<Object6 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object7 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object8 model="Coin" position="Up" distance="0.5" passable="false" />
+			<Object9 model="Chainsaw" position="Middle" distance="1.25" passable="true" />
+			<Object10 model="Chainsaw" position="Up" distance="0" passable="false" />
+			<Object11 model="Chainsaw" position="Middle" distance="1.5" passable="true" />
+			<Object12 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object13 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object14 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object15 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object16 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object17 model="Chainsaw" position="Middle" distance="1" passable="true" />
+			<Object18 model="Chainsaw" position="Up" distance="0" passable="false" />
+		</Combination2>
+		
+		<!-- Mixed multiple chainsaw combinations -->
+		<Combination3 speed="0" endDistance="0">
+			<Object1 model="Chainsaw" position="Up" distance="0" passable="true" />
+			<Object2 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object3 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object4 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object5 model="Coin" position="Down" distance="0.5" passable="false" />
+			<Object6 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object7 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object8 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object9 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object10 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object11 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object12 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object13 model="Coin" position="Up" distance="0.5" passable="false" />
+			<Object14 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object15 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object16 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object17 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object18 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object19 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object20 model="Chainsaw" position="Down" distance="0" passable="false" />
+			<Object21 model="Chainsaw" position="Up" distance="1" passable="true" />
+			<Object22 model="Chainsaw" position="Down" distance="0" passable="false" />
+		</Combination3>
+		
+		<!-- Laser combination -->
+		<Combination4 speed="0" endDistance="0">
+			<Object1 model="Laser" position="Up" distance="0.4" passable="true" />
+			<Object2 model="Laser" position="Down" distance="1.4" passable="true" />
+			<Object3 model="Laser" position="Up" distance="1.4" passable="true" />
+			<Object4 model="Laser" position="Down" distance="1.4" passable="true" />
+			<Object5 model="Coin" position="Middle" distance="0.7" passable="false" />
+			<Object6 model="Laser" position="Down" distance="1.4" passable="false" />
+			<Object7 model="Laser" position="Up" distance="1.4" passable="true" />
+			<Object8 model="Laser" position="Up" distance="1.4" passable="true" />
+		</Combination4>
+		
+	</StaticCombinations>
+
+	<SimpleCombinations>
+	
+		<!-- VerticalChainsaw combination -->
+		<Combination1 speed="0" endDistance="13">
+			<Object1 model="VerticalChainsaw" movement="0" position="Middle" startingPoint="0" distance="0" passable="true" />
+			<Object2 model="VerticalChainsaw" movement="0" position="Down" startingPoint="0" distance="1" passable="true" />
+			<Object3 model="VerticalChainsaw" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object4 model="VerticalChainsaw" movement="0" position="Middle" startingPoint="0" distance="1" passable="true" />
+			<Object5 model="VerticalChainsaw" movement="0" position="Down" startingPoint="0" distance="1" passable="true" />
+			<Object6 model="VerticalChainsaw" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object7 model="VerticalChainsaw" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object8 model="Coin" movement="0" position="Middle" startingPoint="0" distance="0" passable="false" />
+			<Object9 model="VerticalChainsaw" movement="0" position="Down" startingPoint="0" distance="0.5" passable="true" />
+			<Object10 model="VerticalChainsaw" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object11 model="Coin" movement="0" position="Middle" startingPoint="0" distance="0" passable="false" />
+			<Object12 model="VerticalChainsaw" movement="0" position="Down" startingPoint="0" distance="0.5" passable="true" />
+			<Object13 model="VerticalChainsaw" movement="0" position="Middle" startingPoint="0" distance="1" passable="true" />
+		</Combination1>
+		
+		<!-- Chainsaw circular railway combination -->
+		<Combination2 speed="18" endDistance="12.09375">
+			<Object1 model="Chainsaw" movement="3" position="Middle" startingPoint="0" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="4" position="Middle" startingPoint="1" distance="1" passable="true" />
+			<Object3 model="Chainsaw" movement="3" position="Middle" startingPoint="0" distance="1" passable="true" />
+			<Object4 model="Chainsaw" movement="4" position="Middle" startingPoint="1" distance="1" passable="true" />
+			<Object5 model="Chainsaw" movement="3" position="Middle" startingPoint="0" distance="1" passable="true" />
+			<Object6 model="Chainsaw" movement="4" position="Middle" startingPoint="0" distance="1" passable="true" />
+			<Object7 model="Chainsaw" movement="3" position="Middle" startingPoint="0" distance="1" passable="true" />
+			<Object8 model="Chainsaw" movement="4" position="Middle" startingPoint="1" distance="1" passable="true" />
+			<Object9 model="Chainsaw" movement="3" position="Middle" startingPoint="1" distance="1" passable="true" />
+			<Object10 model="Chainsaw" movement="4" position="Middle" startingPoint="1" distance="1" passable="true" />
+			<Object11 model="Chainsaw" movement="3" position="Middle" startingPoint="0" distance="1" passable="true" />
+			<Object12 model="Chainsaw" movement="4" position="Middle" startingPoint="1" distance="1" passable="true" />
+		</Combination2>
+		
+		<!-- Chainsaw linear railway combination -->
+		<Combination3 speed="27.5" endDistance="24.1875">
+			<Object1 model="Chainsaw" movement="7" position="Middle" startingPoint="0" distance="0" passable="true" />
+			<Object2 model="Coin" movement="0" position="Down" startingPoint="0" distance="0" passable="false" />
+			<Object3 model="Chainsaw" movement="8" position="Middle" startingPoint="0" distance="0.25" passable="true" />
+			<Object4 model="Chainsaw" movement="7" position="Middle" startingPoint="0" distance="0.25" passable="true" />
+			<Object5 model="Chainsaw" movement="8" position="Middle" startingPoint="0" distance="0.25" passable="true" />
+			<Object6 model="Coin" movement="0" position="Up" startingPoint="0" distance="0" passable="false" />
+			<Object7 model="Chainsaw" movement="7" position="Middle" startingPoint="0" distance="0.25" passable="true" />
+			<Object8 model="Chainsaw" movement="8" position="Middle" startingPoint="0" distance="0.25" passable="true" />
+			<Object9 model="Coin" movement="0" position="Up" startingPoint="0" distance="0" passable="false" />
+			<Object10 model="Chainsaw" movement="7" position="Middle" startingPoint="0" distance="0.25" passable="true" />
+			<Object11 model="Chainsaw" movement="8" position="Middle" startingPoint="0" distance="0.25" passable="true" />
+		</Combination3>
+		
+		<!-- Up/Down chainsaw combination -->
+		<Combination4 speed="16" endDistance="0">
+			<Object1 model="Chainsaw" movement="1" position="Middle" startingPoint="0" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="1" position="Middle" startingPoint="1" distance="0.75" passable="true" />
+			<Object3 model="Coin" movement="0" position="Up" startingPoint="0" distance="0.5" passable="false" />
+			<Object4 model="Chainsaw" movement="1" position="Middle" startingPoint="0" distance="0.75" passable="true" />
+			<Object5 model="Chainsaw" movement="1" position="Middle" startingPoint="1" distance="0.75" passable="true" />
+			<Object6 model="Coin" movement="0" position="Up" startingPoint="0" distance="0.5" passable="false" />
+			<Object7 model="Chainsaw" movement="1" position="Middle" startingPoint="0" distance="0.75" passable="true" />
+			<Object8 model="Chainsaw" movement="1" position="Middle" startingPoint="0" distance="0.75" passable="true" />
+			<Object9 model="Coin" movement="0" position="Down" startingPoint="0" distance="0.5" passable="false" />
+			<Object10 model="Chainsaw" movement="1" position="Middle" startingPoint="1" distance="0.75" passable="true" />
+			<Object11 model="Chainsaw" movement="1" position="Middle" startingPoint="1" distance="0.75" passable="true" />
+		</Combination4>	
+		
+		<!-- Left/Right chainsaw combination -->
+		<Combination5 speed="16" endDistance="0">
+			<Object1 model="Chainsaw" movement="2" position="Middle" startingPoint="0" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="2" position="Up" startingPoint="1" distance="0" passable="false" />
+			<Object3 model="Chainsaw" movement="2" position="Down" startingPoint="0" distance="-1" passable="false" />
+			<Object4 model="Coin" movement="0" position="Up" startingPoint="0" distance="-0.7" passable="false" />
+			<Object5 model="Chainsaw" movement="2" position="Middle" startingPoint="1" distance="0" passable="true" />
+			<Object6 model="Chainsaw" movement="2" position="Up" startingPoint="1" distance="0" passable="false" />
+			<Object7 model="Coin" movement="0" position="Middle" startingPoint="0" distance="-0.6" passable="false" />
+			<Object8 model="Chainsaw" movement="2" position="Down" startingPoint="0" distance="-1" passable="false" />
+			<Object9 model="Chainsaw" movement="2" position="Middle" startingPoint="0" distance="0" passable="true" />
+			<Object10 model="Chainsaw" movement="2" position="Up" startingPoint="0" distance="0" passable="false" />
+			<Object11 model="Chainsaw" movement="2" position="Down" startingPoint="1" distance="-1" passable="false" />
+			<Object12 model="Coin" movement="0" position="Down" startingPoint="0" distance="-0.7" passable="false" />
+		</Combination5>	
+		
+		<!-- Inflatable combination -->
+		<Combination6 speed="0" endDistance="3">
+			<Object1 model="Inflatable" movement="0" position="Middle" startingPoint="0" distance="0" passable="true" />
+			<Object2 model="Inflatable" movement="0" position="Up" startingPoint="1" distance="0.75" passable="true" />
+			<Object3 model="Inflatable" movement="0" position="Down" startingPoint="0" distance="0.75" passable="false" />
+			<Object4 model="Inflatable" movement="0" position="Up" startingPoint="1" distance="0.75" passable="true" />
+			<Object5 model="Inflatable" movement="0" position="Down" startingPoint="1" distance="0.75" passable="true" />
+			<Object6 model="Inflatable" movement="0" position="Up" startingPoint="0" distance="0.75" passable="false" />
+			<Object7 model="Inflatable" movement="0" position="Down" startingPoint="0" distance="0.75" passable="true" />
+			<Object8 model="Inflatable" movement="0" position="Middle" startingPoint="0" distance="0.75" passable="true" />
+			<Object9 model="Inflatable" movement="0" position="Up" startingPoint="0" distance="0.75" passable="false" />
+			<Object10 model="Inflatable" movement="0" position="Down" startingPoint="0" distance="0.75" passable="true" />
+			<Object11 model="Inflatable" movement="0" position="Up" startingPoint="0" distance="0.75" passable="true" />
+			<Object12 model="Inflatable" movement="0" position="Middle" startingPoint="0" distance="0.75" passable="false" />
+		</Combination6>	
+		
+		<!-- ChainsawStick combination -->
+		<Combination7 speed="0" endDistance="3">
+			<Object1 model="ChainsawStick" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object2 model="Coin" movement="0" position="Middle" startingPoint="0" distance="0" passable="false" />
+			<Object3 model="ChainsawStick" movement="0" position="Down" startingPoint="1" distance="1" passable="false" />
+			<Object4 model="ChainsawStick" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object5 model="ChainsawStick" movement="0" position="Down" startingPoint="1" distance="1" passable="false" />
+			<Object6 model="Coin" movement="0" position="Middle" startingPoint="0" distance="0" passable="false" />
+			<Object7 model="ChainsawStick" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object8 model="ChainsawStick" movement="0" position="Down" startingPoint="1" distance="1" passable="false" />
+			<Object9 model="ChainsawStick" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object10 model="ChainsawStick" movement="0" position="Down" startingPoint="1" distance="1" passable="false" />
+			<Object11 model="Coin" movement="0" position="Middle" startingPoint="0" distance="0" passable="false" />
+			<Object12 model="ChainsawStick" movement="0" position="Up" startingPoint="0" distance="1" passable="true" />
+			<Object13 model="ChainsawStick" movement="0" position="Down" startingPoint="1" distance="1" passable="false" />
+		</Combination7>	
+		
+	</SimpleCombinations>	
+
+	<ComposedCombinations>
+	
+		<!-- Chainsaw circular combination -->
+		<Combination1 speed="17" endDistance="12.09375">
+			<Object1 model="Chainsaw" movement="1" startingPoint1="1" startingPoint2="0" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="1" startingPoint1="1" startingPoint2="0" distance="1.25" passable="true" />
+			<Object3 model="Chainsaw" movement="1" startingPoint1="1" startingPoint2="0" distance="1.25" passable="true" />
+			<Object4 model="Chainsaw" movement="1" startingPoint1="1" startingPoint2="0" distance="1.25" passable="true" />
+		</Combination1>
+		
+		<!-- Chainsaw addition cross combination -->
+		<Combination2 speed="16" endDistance="12.09375">
+			<Object1 model="Chainsaw" movement="0" startingPoint1="1" startingPoint2="0" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="0" startingPoint1="0" startingPoint2="1" distance="0.75" passable="true" />
+			<Object3 model="Chainsaw" movement="0" startingPoint1="1" startingPoint2="1" distance="0.75" passable="true" />
+			<Object4 model="Chainsaw" movement="0" startingPoint1="0" startingPoint2="0" distance="0.75" passable="true" />
+		</Combination2>
+		
+		<!-- Chainsaw multiplication cross combination -->
+		<Combination3 speed="16" endDistance="0">
+			<Object1 model="Chainsaw" movement="2" startingPoint1="1" startingPoint2="1" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="2" startingPoint1="0" startingPoint2="1" distance="0.5" passable="true" />
+			<Object3 model="Chainsaw" movement="2" startingPoint1="1" startingPoint2="0" distance="0.5" passable="true" />
+			<Object4 model="Chainsaw" movement="2" startingPoint1="1" startingPoint2="1" distance="0.5" passable="true" />
+		</Combination3>
+		
+		<!-- Chainsaw addition and multiplication cross combination -->
+		<Combination4 speed="16" endDistance="0">
+			<Object1 model="Chainsaw" movement="0" startingPoint1="1" startingPoint2="0" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="2" startingPoint1="1" startingPoint2="1" distance="0.75" passable="true" />
+			<Object3 model="Chainsaw" movement="0" startingPoint1="0" startingPoint2="1" distance="0.25" passable="true" />
+			<Object4 model="Chainsaw" movement="2" startingPoint1="1" startingPoint2="1" distance="0.75" passable="true" />
+			<Object5 model="Chainsaw" movement="0" startingPoint1="1" startingPoint2="1" distance="0.25" passable="true" />
+			<Object6 model="Chainsaw" movement="2" startingPoint1="1" startingPoint2="1" distance="0.75" passable="true" />
+			<Object7 model="Chainsaw" movement="0" startingPoint1="0" startingPoint2="0" distance="0.25" passable="true" />
+		</Combination4>
+		
+		<!-- Chainsaw squared combination -->
+		<Combination5 speed="25" endDistance="24.1875">
+			<Object1 model="Chainsaw" movement="3" startingPoint1="0" startingPoint2="1" distance="0" passable="true" />
+			<Object2 model="Chainsaw" movement="3" startingPoint1="0" startingPoint2="1" distance="1" passable="true" />
+			<Object3 model="Chainsaw" movement="3" startingPoint1="0" startingPoint2="1" distance="1" passable="true" />
+			<Object4 model="Chainsaw" movement="3" startingPoint1="0" startingPoint2="1" distance="1" passable="true" />
+		</Combination5>
+		
+		<!-- Triangles combination -->
+		<Combination6 speed="30" endDistance="24.1875">
+			<Object1 model="Chainsaw" movement="4" startingPoint1="3" startingPoint2="0" distance="0" passable="true"/>
+			<Object2 model="Chainsaw" movement="4" startingPoint1="3" startingPoint2="0" distance="1" passable="true"/>
+			<Object3 model="Chainsaw" movement="4" startingPoint1="3" startingPoint2="0" distance="1" passable="true"/>
+			<Object4 model="Chainsaw" movement="4" startingPoint1="3" startingPoint2="0" distance="1" passable="true"/>
+		</Combination6>	
+		
+	</ComposedCombinations>	
+	
+	<ChainCombinations>
+	
+		<!-- Zig zag -->
+		<Combination1 endDistance="0">
+			
+			<!-- Starting wall -->
+			<Object1 model="Wall" passable="false" flags="First" >
+				<GroundPoint1 x="0" y="0" />
+				<GroundPoint2 x="0" y="8" />
+				<GroundPoint3 x="10" y="0" />
+				
+				<RoofPoint1 x="0" y="32.25" />
+				<RoofPoint2 x="0" y="24.25" />
+				<RoofPoint3 x="10" y="14.25" />
+			</Object1>
+			
+			<!-- Long up wall -->
+			<Object2 model="Wall" passable="true" flags="" >
+				<GroundPoint1 x="10" y="0" />
+				<GroundPoint2 x="30" y="16" />
+				
+				<RoofPoint1 x="10" y="14.25" />
+				<RoofPoint2 x="30" y="32.25" />
+			</Object2>
+			
+			<!-- Short down wall -->
+			<Object3 model="Wall" passable="false" flags="" >
+				<GroundPoint1 x="30" y="16" />
+				<GroundPoint2 x="40" y="8" />
+				
+				<RoofPoint1 x="30" y="32.25" />
+				<RoofPoint2 x="40" y="24.25" />
+			</Object3>
+		
+			<!-- Short up wall -->
+			<Object4 model="Wall" passable="true" flags="" >
+				<GroundPoint1 x="40" y="8" />
+				<GroundPoint2 x="50" y="16" />
+				
+				<RoofPoint1 x="40" y="24.25" />
+				<RoofPoint2 x="50" y="32.25" />
+			</Object4>
+			
+			<!-- Short down wall -->
+			<Object5 model="Wall" passable="false" flags="" >
+				<GroundPoint1 x="50" y="16" />
+				<GroundPoint2 x="60" y="8" />
+
+				<RoofPoint1 x="50" y="32.25" />
+				<RoofPoint2 x="60" y="24.25" />
+			</Object5>
+			
+			<!-- Short up wall -->
+			<Object6 model="Wall" passable="true" flags="" >
+				<GroundPoint1 x="60" y="8" />
+				<GroundPoint2 x="70" y="16" />
+
+				<RoofPoint1 x="60" y="24.25" />
+				<RoofPoint2 x="70" y="32.25" />
+			</Object6>
+			
+			<!-- Short down wall -->
+			<Object7 model="Wall" passable="false" flags="" >
+				<GroundPoint1 x="70" y="16" />
+				<GroundPoint2 x="80" y="8" />
+				
+				<RoofPoint1 x="70" y="32.25" />
+				<RoofPoint2 x="80" y="24.25" />
+			</Object7>
+			
+			<!-- Short up wall -->
+			<Object8 model="Wall" passable="true" flags="" >
+				<GroundPoint1 x="80" y="8" />
+				<GroundPoint2 x="90" y="16" />
+				
+				<RoofPoint1 x="80" y="24.25" />
+				<RoofPoint2 x="90" y="32.25" />
+			</Object8>
+			
+			<!-- Short down wall -->
+			<Object9 model="Wall" passable="false" flags="" >
+				<GroundPoint1 x="90" y="16" />
+				<GroundPoint2 x="100" y="8" />
+
+				<RoofPoint1 x="90" y="32.25" />
+				<RoofPoint2 x="100" y="24.25" />
+			</Object9>
+			
+			<!-- Short up wall -->
+			<Object10 model="Wall" passable="true" flags="" >
+				<GroundPoint1 x="100" y="8" />
+				<GroundPoint2 x="110" y="16" />
+	
+				<RoofPoint1 x="100" y="24.25" />
+				<RoofPoint2 x="110" y="32.25" />
+			</Object10>
+			
+			<!-- Long down wall -->
+			<Object11 model="Wall" passable="false" flags="" >
+				<GroundPoint1 x="110" y="16" />
+				<GroundPoint2 x="130" y="0" />
+
+				<RoofPoint1 x="110" y="32.25" />
+				<RoofPoint2 x="130" y="14.25" />
+			</Object11>
+			
+			<!-- Long up wall -->
+			<Object12 model="Wall" passable="true" flags="" >
+				<GroundPoint1 x="130" y="0" />
+				<GroundPoint2 x="150" y="16" />
+
+				<RoofPoint1 x="130" y="14.25" />
+				<RoofPoint2 x="150" y="32.25" />
+			</Object12>
+			
+			<!-- Ending wall -->
+			<Object13 model="Wall" passable="false" flags="Last" >
+				<GroundPoint1 x="150" y="16" />
+				<GroundPoint2 x="165" y="8" />
+				<GroundPoint3 x="165" y="0" />
+
+				<RoofPoint1 x="150" y="32.25" />
+				<RoofPoint2 x="165" y="24.25" />
+				<RoofPoint3 x="165" y="32.25" />
+			</Object13>
+
+		</Combination1>
+		
+		<!-- Diamonds -->
+		<Combination2 endDistance="0">
+			
+			<!-- Starting wall -->
+			<Object1 model="Wall" passable="true" flags="First">
+				<GroundPoint1 x="0" y="0" />
+				<GroundPoint2 x="0" y="4" />
+				<GroundPoint3 x="20" y="18" />
+				
+				<RoofPoint1 x="0" y="32.25" />
+				<RoofPoint2 x="0" y="14.25" />
+				<RoofPoint3 x="20" y="30.25" />
+			</Object1>
+			
+			<!-- Short down wall -->
+			<Object2 model="Wall" passable="false" flags="" >
+				<GroundPoint1 x="20" y="18" />
+				<GroundPoint2 x="30" y="12" />
+				
+				<RoofPoint1 x="20" y="30.25" />
+				<RoofPoint2 x="30" y="24.25" />
+			</Object2>
+			
+			<!-- Upper Star wall -->
+			<Object3 model="Wall" passable="true" flags="Unrelated" >
+				<GroundPoint1 x="40" y="16" />
+				<GroundPoint2 x="50" y="22" />
+				
+				<RoofPoint1 x="30" y="24.25" />
+				<RoofPoint2 x="50" y="32.25" />
+			</Object3>
+			
+			<!-- Upper Star second wall -->
+			<Object4 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="50" y="22" />
+				<GroundPoint2 x="60" y="16" />
+				
+				<RoofPoint1 x="50" y="32.25" />
+				<RoofPoint2 x="70" y="24.25" />
+			</Object4>
+			
+			<!-- Lower Star wall -->
+			<Object5 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="30" y="12" />
+				<GroundPoint2 x="50" y="0" />
+				
+				<RoofPoint1 x="40" y="16" />
+				<RoofPoint2 x="50" y="10" />
+			</Object5>
+			
+			<!-- Lower Star second wall -->
+			<Object6 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="50" y="0" />
+				<GroundPoint2 x="70" y="12" />
+				
+				<RoofPoint1 x="50" y="10" />
+				<RoofPoint2 x="60" y="16" />
+			</Object6>
+			
+			<!-- Upper Star wall -->
+			<Object7 model="Wall" passable="true" flags="Unrelated" >
+				<GroundPoint1 x="80" y="16" />
+				<GroundPoint2 x="90" y="22" />
+				
+				<RoofPoint1 x="70" y="24.25" />
+				<RoofPoint2 x="90" y="32.25" />
+			</Object7>
+			
+			<!-- Upper Star second wall -->
+			<Object8 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="90" y="22" />
+				<GroundPoint2 x="100" y="16" />
+				
+				<RoofPoint1 x="90" y="32.25" />
+				<RoofPoint2 x="110" y="24.25" />
+			</Object8>
+			
+			<!-- Lower Star wall -->
+			<Object9 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="70" y="12" />
+				<GroundPoint2 x="90" y="0" />
+				
+				<RoofPoint1 x="80" y="16" />
+				<RoofPoint2 x="90" y="10" />
+			</Object9>
+			
+			<!-- Lower Star second wall -->
+			<Object10 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="90" y="0" />
+				<GroundPoint2 x="110" y="12" />
+				
+				<RoofPoint1 x="90" y="10" />
+				<RoofPoint2 x="100" y="16" />
+			</Object10>
+				
+			<!-- Upper Star wall -->
+			<Object11 model="Wall" passable="true" flags="Unrelated" >
+				<GroundPoint1 x="120" y="16" />
+				<GroundPoint2 x="130" y="22" />
+				
+				<RoofPoint1 x="110" y="24.25" />
+				<RoofPoint2 x="130" y="32.25" />
+			</Object11>
+			
+			<!-- Upper Star second wall -->
+			<Object12 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="130" y="22" />
+				<GroundPoint2 x="140" y="16" />
+				
+				<RoofPoint1 x="130" y="32.25" />
+				<RoofPoint2 x="150" y="24.25" />
+			</Object12>
+			
+			<!-- Lower Star wall -->
+			<Object13 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="110" y="12" />
+				<GroundPoint2 x="130" y="0" />
+				
+				<RoofPoint1 x="120" y="16" />
+				<RoofPoint2 x="130" y="10" />
+			</Object13>
+			
+			<!-- Lower Star second wall -->
+			<Object14 model="Wall" passable="false" flags="Unrelated" >
+				<GroundPoint1 x="130" y="0" />
+				<GroundPoint2 x="150" y="12" />
+				
+				<RoofPoint1 x="130" y="10" />
+				<RoofPoint2 x="140" y="16" />
+			</Object14>
+			
+			<!-- Ending wall -->
+			<Object15 model="Wall" passable="false" flags="Last" >
+				<GroundPoint1 x="150" y="12" />
+				<GroundPoint2 x="160" y="4" />
+				<GroundPoint3 x="160" y="0" />
+
+				<RoofPoint1 x="150" y="24.25" />
+				<RoofPoint2 x="160" y="16.25" />
+				<RoofPoint3 x="160" y="32.25" />
+			</Object15>
+			
+		</Combination2>
+		
+		<!-- Separated walls -->
+		<Combination3 endDistance="0">
+			<!-- Middle wall -->
+			<Object1 model="Wall" passable="true" flags="First" >
+				<GroundPoint1 x="0" y="0" />
+				<GroundPoint2 x="0" y="15.25" />
+				<GroundPoint3 x="10" y="5.25" />
+				
+				<RoofPoint1 x="0" y="32.25" />
+				<RoofPoint2 x="0" y="26.25" />
+				<RoofPoint3 x="10" y="16.25" />
+			</Object1>
+			
+			<!-- Up wall -->
+			<Object2 model="Wall" passable="true" flags="First" >
+				<GroundPoint1 x="40" y="0" />
+				<GroundPoint2 x="40" y="19.25" />
+				<GroundPoint3 x="50" y="9.25" />
+				
+				<RoofPoint1 x="40" y="32.25" />
+				<RoofPoint2 x="40" y="30.25" />
+				<RoofPoint3 x="50" y="20.25" />
+			</Object2>
+			
+			<!-- Down wall -->
+			<Object3 model="Wall" passable="true" flags="First" >
+				<GroundPoint1 x="80" y="0" />
+				<GroundPoint2 x="80" y="2.25" />
+				<GroundPoint3 x="90" y="12.25" />
+				
+				<RoofPoint1 x="80" y="32.25" />
+				<RoofPoint2 x="80" y="13.25" />
+				<RoofPoint3 x="90" y="23.25" />
+			</Object3>
+			
+			<!-- Middle wall -->
+			<Object4 model="Wall" passable="true" flags="First" >
+				<GroundPoint1 x="120" y="0" />
+				<GroundPoint2 x="120" y="10.25" />
+				<GroundPoint3 x="130" y="20.25" />
+				
+				<RoofPoint1 x="120" y="32.25" />
+				<RoofPoint2 x="120" y="21.25" />
+				<RoofPoint3 x="130" y="31.25" />
+			</Object4>
+			
+			<!-- Middle wall -->
+			<Object5 model="Wall" passable="true" flags="First" >
+				<GroundPoint1 x="160" y="0" />
+				<GroundPoint2 x="160" y="19.25" />
+				<GroundPoint3 x="170" y="9.25" />
+				
+				<RoofPoint1 x="160" y="32.25" />
+				<RoofPoint2 x="160" y="31.25" />
+				<RoofPoint3 x="170" y="21.25" />
+			</Object5>
+			
+		</Combination3>
+		
+	</ChainCombinations>
+
+	<PartedCombinations>
+
+		<!-- LinearParted combination -->
+		<Combination1 speed="10" endDistance="0">
+			<Object1 model="LinearParted" startingPoint="0" distance="0.5" passable="true"/>
+			<Object2 model="LinearParted" startingPoint="1" distance="1.5" passable="true"/>
+			<Object3 model="LinearParted" startingPoint="0" distance="1.5" passable="true"/>
+			<Object4 model="LinearParted" startingPoint="1" distance="1.5" passable="true"/>
+			<Object5 model="LinearParted" startingPoint="1" distance="1.5" passable="true"/>
+			<Object6 model="LinearParted" startingPoint="0" distance="1.5" passable="true"/>
+			<Object7 model="LinearParted" startingPoint="0" distance="1.5" passable="true"/>
+			<Object8 model="LinearParted" startingPoint="1" distance="1.5" passable="true"/>
+			<Object9 model="LinearParted" startingPoint="0" distance="1.5" passable="true"/>
+		</Combination1>	
+		
+		<!-- RectangularParted combination -->
+		<Combination2 speed="0" endDistance="8">
+			<Object1 model="RectangularParted" startingPoint="0" distance="1.5" passable="true"/>
+			<Object2 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object3 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object4 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object5 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object6 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object7 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object8 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object9 model="RectangularParted" startingPoint="0" distance="2.5" passable="true"/>
+		</Combination2>	
+		
+		<!-- CircularParted combination -->
+		<Combination3 speed="0" endDistance="8">
+			<Object1 model="CircularParted" startingPoint="0" distance="1.5" passable="true"/>
+			<Object2 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object3 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object4 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object5 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object6 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object7 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object8 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object9 model="CircularParted" startingPoint="0" distance="2.5" passable="true"/>
+		</Combination3>	
+		
+		<!-- RectangularCircularParted combination -->
+		<Combination4 speed="0" endDistance="8">
+			<Object1 model="RectangularCircularParted" startingPoint="0" distance="1.5" passable="true"/>
+			<Object2 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object3 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object4 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object5 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object6 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object7 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object8 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+			<Object9 model="RectangularCircularParted" startingPoint="0" distance="2.5" passable="true"/>
+		</Combination4>	
+		
+	</PartedCombinations>
+	
+	<GravityCombinations>
+
+		<!-- VerticalChainsaw combination -->
+		<Combination1 speed="0" endDistance="13">
+			<Object1 model="Chainsaw" position="Up" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object2 model="VerticalChainsaw" position="Middle" movement="0" startingPoint="0" distance="0" passable="true"/>
+			<Object3 model="Coin" position="Middle" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object4 model="Chainsaw" position="Down" movement="0" distance="0" startingPoint="0" passable="false"/>	
+			<Object5 model="Chainsaw" position="Down" movement="0" distance="0" startingPoint="0" passable="false"/>
+			<Object6 model="VerticalChainsaw" position="Middle" movement="0" startingPoint="0" distance="0" passable="true"/>
+			<Object7 model="Coin" position="Middle" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object8 model="Chainsaw" position="Up" movement="0" distance="0" startingPoint="0" passable="false"/>
+			<Object9 model="VerticalChainsaw" position="Up" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object10 model="VerticalChainsaw" position="Middle" movement="0" startingPoint="0" distance="0.5" passable="true"/>
+			<Object11 model="Chainsaw" position="Down" movement="0" distance="0" startingPoint="0" passable="false"/>			
+			<Object12 model="Chainsaw" position="Up" movement="0" distance="0" startingPoint="0" passable="false"/>
+
+		</Combination1>		
+		
+		<!-- ChainsawTriangle combination -->
+		<Combination2 speed="0" endDistance="12.25">
+			<Object1 model="ChainsawTriangle" position="Up" movement="0" distance="0" startingPoint="0" passable="false"/>
+			<Object2 model="ChainsawTriangle" position="Down" movement="0" distance="-1" startingPoint="0" passable="true"/>
+			<Object3 model="Coin" position="Up" movement="0" startingPoint="0" distance="0.5" passable="false"/>
+			<Object4 model="ChainsawTriangle" position="Up" movement="0" distance="1" startingPoint="0" passable="false"/>
+			<Object5 model="ChainsawTriangle" position="Down" movement="0" distance="-1" startingPoint="0" passable="true"/>
+			<Object6 model="ChainsawTriangle" position="Up" movement="0" distance="1" startingPoint="0" passable="false"/>
+			<Object7 model="ChainsawTriangle" position="Down" movement="0" distance="-1" startingPoint="0" passable="true"/>
+			<Object8 model="Coin" position="Up" movement="0" startingPoint="0" distance="0.5" passable="false"/>
+			<Object9 model="ChainsawTriangle" position="Up" movement="0" distance="1" startingPoint="0" passable="false"/>
+			<Object10 model="ChainsawTriangle" position="Down" movement="0" distance="-1" startingPoint="0" passable="true"/>
+			<Object11 model="ChainsawTriangle" position="Up" movement="0" distance="1" startingPoint="0" passable="false"/>
+			<Object12 model="ChainsawTriangle" position="Down" movement="0" distance="-1" startingPoint="0" passable="true"/>
+			<Object13 model="ChainsawTriangle" position="Up" movement="0" distance="1" startingPoint="0" passable="false"/>
+			<Object14 model="ChainsawTriangle" position="Down" movement="0" distance="-1" startingPoint="0" passable="true"/>
+
+		</Combination2>	
+		
+		<!-- Chainsaw vertical movement combination -->
+		<Combination3 speed="30" endDistance="12.25">
+			<Object1 model="Chainsaw" position="Up" movement="1" startingPoint="0" distance="0" passable="true"/>
+			<Object2 model="Chainsaw" position="Up" movement="1" startingPoint="1" distance="0.5" passable="false"/>
+			<Object3 model="Chainsaw" position="Up" movement="1" startingPoint="0" distance="0.5" passable="true"/>
+			<Object4 model="Coin" position="Up" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object5 model="Chainsaw" position="Up" movement="1" startingPoint="1" distance="0.5" passable="false"/>
+			<Object6 model="Chainsaw" position="Up" movement="1" startingPoint="0" distance="0.5" passable="true"/>
+			<Object7 model="Chainsaw" position="Up" movement="1" startingPoint="1" distance="0.5" passable="false"/>
+			<Object8 model="Chainsaw" position="Up" movement="1" startingPoint="0" distance="0.5" passable="true"/>
+			<Object9 model="Coin" position="Down" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object10 model="Chainsaw" position="Up" movement="1" startingPoint="1" distance="0.5" passable="false"/>
+			<Object11 model="Chainsaw" position="Up" movement="1" startingPoint="0" distance="0.5" passable="true"/>
+			<Object12 model="Chainsaw" position="Up" movement="1" startingPoint="1" distance="0.5" passable="false"/>
+		</Combination3>	
+		
+		<!-- Chainsaw diagonal movement combination -->
+		<Combination4 speed="30" endDistance="12.25">
+			<Object1 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="0" passable="true"/>
+			<Object2 model="Chainsaw" position="Up" movement="5" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object3 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object4 model="Coin" position="Up" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object5 model="Chainsaw" position="Up" movement="5" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object6 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object7 model="Chainsaw" position="Up" movement="5" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object8 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object9 model="Coin" position="Down" movement="0" startingPoint="0" distance="0" passable="false"/>
+			<Object10 model="Chainsaw" position="Up" movement="5" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object11 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object12 model="Chainsaw" position="Up" movement="5" startingPoint="1" distance="-0.5" passable="false"/>
+		</Combination4>	
+		
+		<!-- Chainsaw diagonal inversed movement combination -->
+		<Combination5 speed="30" endDistance="12.25">
+			<Object1 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="0" passable="true"/>
+			<Object2 model="Chainsaw" position="Up" movement="6" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object3 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object4 model="Chainsaw" position="Up" movement="6" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object5 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object6 model="Chainsaw" position="Up" movement="6" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object7 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object8 model="Chainsaw" position="Up" movement="6" startingPoint="1" distance="-0.5" passable="false"/>
+			<Object9 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.5" passable="true"/>
+			<Object10 model="Chainsaw" position="Up" movement="6" startingPoint="1" distance="-0.5" passable="false"/>
+		</Combination5>	
+		
+		<!-- Chainsaw diagonal railway movement combination -->
+		<Combination6 speed="30" endDistance="12.25">
+			<Object1 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="0" passable="true"/>
+			<Object2 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.75" passable="false"/>
+			<Object3 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.75" passable="true"/>
+			<Object4 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.75" passable="false"/>
+			<Object5 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.75" passable="true"/>
+			<Object6 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.75" passable="false"/>
+			<Object7 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.75" passable="true"/>
+			<Object8 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.75" passable="false"/>
+			<Object9 model="Chainsaw" position="Up" movement="5" startingPoint="0" distance="-0.75" passable="true"/>
+			<Object10 model="Chainsaw" position="Up" movement="6" startingPoint="0" distance="-0.75" passable="false"/>
+		</Combination6>	
+		
+	</GravityCombinations>
+</Movements>

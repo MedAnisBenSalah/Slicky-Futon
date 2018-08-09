@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "750542373020",
+    "firebase_url": "https://slicky-futon-90782805.firebaseio.com",
+    "project_id": "slicky-futon-90782805",
+    "storage_bucket": "slicky-futon-90782805.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750542373020:android:43586996848540a6",
+        "android_client_info": {
+          "package_name": "com.ormisiclapps.slickyfuton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750542373020-3g9vrt5nvldk7iugi8v7fvctpops2b6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ormisiclapps.slickyfuton",
+            "certificate_hash": "0224f7e25c83547a0fad3c067d1b4029d0948fb4"
+          }
+        },
+        {
+          "client_id": "750542373020-od3a9q0nj6mgvdltq9l9ld9t8s69us03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ormisiclapps.slickyfuton",
+            "certificate_hash": "8c50ea1f9afac154b51182c8ff44f67bd0683226"
+          }
+        },
+        {
+          "client_id": "750542373020-cm2pnp9e90dn5cqnahet9ub662knng79.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "750542373020-4lb4h21enafeovg7hiipkl21hoh13nsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ormisiclapps.slickyfuton",
+            "certificate_hash": "922fbccce176f6a44537cd25914663fd62ae5fc0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkrmAi01c377cTe3SGWdp-lPlEUxxsiNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750542373020-cm2pnp9e90dn5cqnahet9ub662knng79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

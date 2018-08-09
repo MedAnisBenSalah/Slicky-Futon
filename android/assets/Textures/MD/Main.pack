@@ -1,0 +1,33 @@
+
+Main.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GameLogo
+  rotate: false
+  xy: 2, 39
+  size: 500, 208
+  orig: 512, 256
+  offset: 1, 31
+  index: -1
+FlyingModeTutorial
+  rotate: false
+  xy: 507, 24
+  size: 252, 223
+  orig: 256, 256
+  offset: 4, 23
+  index: -1
+Empty
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HalfEmpty
+  rotate: false
+  xy: 764, 215
+  size: 15, 32
+  orig: 32, 32
+  offset: 17, 0
+  index: -1

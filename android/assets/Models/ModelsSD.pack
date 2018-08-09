@@ -1,0 +1,89 @@
+
+ModelsSD.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LighteningAnimation
+  rotate: false
+  xy: 2, 60
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+ChainsawStick
+  rotate: false
+  xy: 2, 23
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+Chainsaw
+  rotate: false
+  xy: 135, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ChainsawTriangle
+  rotate: false
+  xy: 204, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Laser
+  rotate: false
+  xy: 273, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+CircularParted
+  rotate: false
+  xy: 342, 60
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+FlameAnimation
+  rotate: false
+  xy: 135, 23
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+VerticalChainsaw
+  rotate: false
+  xy: 379, 60
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+LinearParted
+  rotate: false
+  xy: 416, 60
+  size: 16, 64
+  orig: 16, 64
+  offset: 0, 0
+  index: -1
+Empty
+  rotate: false
+  xy: 204, 23
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HalfEmpty
+  rotate: false
+  xy: 437, 92
+  size: 15, 32
+  orig: 32, 32
+  offset: 17, 0
+  index: -1
+Coin
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

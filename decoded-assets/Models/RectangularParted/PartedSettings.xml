@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	This file is used to define a parted object parts
+	
+	Parameters:
+		- Part?X?: Specifies the object's rendering values
+			-- Position: the model's shape
+				--- x: The x position from the center (in meters)
+				--- y: The y position from the center (in meters)
+				
+			-- Rotation: The part's rotation relative to the center
+!-->
+
+<Parts>
+	
+	<Part1>
+		<Position x="-12.0625" y="0" />
+		<Rotation value="0" />
+	</Part1>
+		
+	<Part2>
+		<Position x="0" y="12.0625" />
+		<Rotation value="90" />
+	</Part2>
+		
+	<Part3>
+		<Position x="12.0625" y="0" />
+		<Rotation value="0" />
+	</Part3>
+		
+	<Part4>
+		<Position x="0" y="-12.0625" />
+		<Rotation value="90" />
+	</Part4>
+		
+</Parts>
