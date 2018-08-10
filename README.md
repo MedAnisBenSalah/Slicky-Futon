@@ -18,7 +18,7 @@
 # Introduction
 
 As of 2016, i began working on an Android game called "The Fish Game", the idea was to have flappy bird's mechanics, 
-friendly graphics and an eye catching environement, but some time into the development process of the game, i realised
+friendly graphics and an eye catching environement, but somewhere into the development process of the game, i realised
 that i lacked the necessary knowledge/resources to make beautiful graphics assets, so i quickly shifted the game into a
 simpler, less textured and more shape oriented graphics.
 
