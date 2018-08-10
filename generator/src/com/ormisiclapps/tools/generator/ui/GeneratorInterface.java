@@ -47,7 +47,7 @@ public class GeneratorInterface extends JFrame implements ActionListener{
         // Create the directory chooser instance
         directoryChooser = new DirectoryChooser();
         // Create the logo image
-        Image logoImage = new ImageIcon("Textures/GeneratorLogo.png").getImage();
+        Image logoImage = new ImageIcon("GeneratorLogo.png").getImage();
         // Resize the image
         logoImage = resizeImage(logoImage, 300, 300);
         // Create components
