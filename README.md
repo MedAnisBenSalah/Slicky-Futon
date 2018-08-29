@@ -11,8 +11,8 @@
   <a href="#introduction">Introduction</a> •
   <a href="#components">Components</a> •
   <a href="#extensions">File extensions</a> •
-  <a href="#links">Media</a> •
-  <a href="http://wiki.tron.network">Links</a>
+  <a href="#media">Media</a> •
+  <a href="#links">Links</a>
 </p>
 
 # Introduction
@@ -58,6 +58,51 @@ This will encode configuration files using Base64, and will generate an <a href=
 button, the output file will be generated under your picked directory, refer to the <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/tree/master/encoder/assets">
 assets folder</a> for a better example.
 
+## Android
+
+Contains a full implementation of <a href="http://appodeal.com/">Appodeal's LibGDX Library</a> (banner, interstitial and rewarded video), as well as a full implementation of Google Play Games Service (<a href="https://github.com/MedAnisBenSalah/Slicky-Futon/tree/master/BaseGameUtils">BaseGameUtils</a>).
+
+This project should not be edited and could be directly imported and used for future implementations of this sort.
+
+## Core
+
+The game's core implements both generic and specific systems, where everything starts from the <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/core/Core.java">Core</a> and reports back to it, the Core then delegates tasks to generic <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/tree/master/core/src/com/ormisiclapps/slickyfuton/managers">managers</a> which handle other specific components of the game.
+
+### <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/managers/ResourcesManager.java">Resources Manager</a>
+
+Responsible of handling <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/tree/master/android/assets">game's resources</a>, immediate loading, disposing and queued loading, textures quality are also handled internally as well as loading configuration files.
+
+NOTE: This cannot be directly exported and used somewhere else as it relies heavily on the game's <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/core/Core.java">Core</a> and some of its components, unless you remove this dependency (which shouldn't be hard), but you'll give away texture's quality handling and configuration's loading.
+
+### <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/managers/ModelManager.java">Model Manager</a>
+
+Responsible of handling models loading (<a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/decoded-assets/Models/Chainsaw/Settings.xml">configuration</a>, <a href="#oab-ormisicl-apps-body-file">body</a>, <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/decoded-assets/Models/Chainsaw/Movement-1.xml">movement</a>), and will internally store all loaded models along with their movements and shapes. 
+
+NOTE: This only depends on the File Manager and can be probably used anywhere else.
+
+### <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/managers/FileManager.java">File Manager</a>
+
+Responsible of handling game's files, from XML parsing to decoding <a href="#extensions">file extensions</a>, this is basically the lowest layer that the game refers to for handling all of its resources.
+
+NOTE: This only depends on LibGDX's library, so it can be exported and used anywhere outside of this project.
+
+### <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/managers/ScreensManager.java">Screens Manager</a>
+
+Will handle and process every <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/tree/master/core/src/com/ormisiclapps/slickyfuton/game/screens">game screen</a> and transition between them, will also handle the <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/tree/master/core/src/com/ormisiclapps/slickyfuton/graphics/windows">UI windows</a> and delegating input between the main UI components and windows.
+
+### <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/managers/GraphicsManager.java">Graphics Manager</a>
+
+Is the one responsible for what appears on the screen, will handle rendering cycles (begin, render and finish) and some rendering effects like flashing and fading. 
+This is the lowest layer of rendering, meaning anything appearing on the screen has to be passed to this manager and it will be handled accordingly.
+
+### <a href="https://github.com/MedAnisBenSalah/Slicky-Futon/blob/master/core/src/com/ormisiclapps/slickyfuton/managers/LevelManager.java">Level Manager</a>
+
+This is pretty much straight forward, it will load levels from their configuration files and store them internally. 
+
+### Other components
+
+The core's components are well organized and well commented that it makes them easy to understand and re-use, i made sure to write a clean, reusable and well documented code while keeping close to the game's needs, if you have any more questions about the game's core, please contact me by email or leave an issue on this repository and i'll be happy to help. 
+
 # Extensions
 
 <p align="center">
@@ -102,3 +147,20 @@ NOTE: It was originally going to be an encrypted effects file but the idea was d
 
 This file is used to save the user's data, it's a Base64 encypted XML based file with basic security machanics,
 please refer to How To Use Persistence section for more information.
+
+# Media
+
+<p align=center><b>Gameplay Video</b></p>
+
+[![Gameplay video](http://i3.ytimg.com/vi/_i-6mJCZUzw/maxresdefault.jpg)](https://www.youtube.com/watch?v=_i-6mJCZUzw)
+
+<p align=center><b>First Level Video</b></p>
+
+[![Gameplay video](http://i3.ytimg.com/vi/_i-6mJCZUzw/maxresdefault.jpg)](https://www.youtube.com/watch?v=xPOMeBkGLNY)
+
+# Links
+
+* <a href="https://libgdx.badlogicgames.com/">LibGDX</a> as game engine
+* <a href="https://box2d.org/">Box2D</a> as physics engine
+* <a href="http://appodeal.com">Appodeal</a> as ad mediation platform
+* <a href="https://github.com/grantland/android-samples/tree/master/BaseGameUtils">BaseGameUtils</a> as Google Play games implementation
